@@ -21,35 +21,6 @@ public class Calculator{
     
     public static void main(String[] args) {
         while(true){
-            // Scanner hitung = new Scanner(System.in);
-            // System.out.print("angka pertama : ");
-            // double ap=hitung.nextDouble();
-            // System.out.print("angka kedua : ");
-            // double ak=hitung.nextDouble();
-            // System.out.print("masukan operator (+-*/) : ");
-            // String pilih=hitung.nextLine();
-            // switch (pilih) {
-            //     case "+":
-            //         System.out.println("hasil penjumlahan : "+penjumlahan(ap,ak));
-            //         break;
-            //     case "-":
-            //         System.out.println("hasil pengurangan : "+pengurangan(ap,ak));
-            //         break;
-            //     case "*":
-            //         System.out.println("hasil perkalian : "+perkalian(ap,ak));
-            //         break;
-            //     case "/":
-            //         System.out.println("hasil pembagian : "+pembagian(ap,ak));
-            //         break;
-            //     default:
-            //         break;
-            // }
-            // System.out.println("");
-            // System.out.print("apakah anda ingin lagi??? (y/t) : ");
-            // String replay=hitung.nextLine();
-            // if(replay.equals("t")){
-            //     System.exit(0);
-            // }
             String map=(JOptionPane.showInputDialog(null, "masukan angka pertama"));
             double ap = Integer.parseInt(map);
             String mak=(JOptionPane.showInputDialog(null, "masukan angka kedua"));
